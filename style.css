@@ -53,6 +53,10 @@ button {
   border: none;
 }
 
+.links:hover {
+  color: white;
+}
+
 .button:hover {
   background-color: #5b9aff;
 }
@@ -67,7 +71,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px calc(100vw * 0.2);
+  padding: 2rem calc(100vw * 0.2);
   background-color: #1f2937;
   color: #f9faf8;
 }
@@ -85,7 +89,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem calc(100vw * 0.2);
+  padding: 4rem calc(100vw * 0.2);
   background-color: #1f2937;
   color: #f9faf8;
   flex: 1;
@@ -124,7 +128,7 @@ button {
 .information {
   text-align: center;
   flex: 1;
-  padding: 2rem;
+  padding: 4rem calc(100vw * 0.2);
 }
 
 .container {
@@ -152,7 +156,7 @@ button {
   color: #1f2937;
   font-size: 36px;
   text-align: center;
-  padding: 3rem;
+  padding: 4rem calc(100vw * 0.2);
 }
 
 .quote-author {
@@ -164,7 +168,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 4rem;
+  padding: 4rem calc(100vw * 0.2);
 }
 
 .blue-box {
@@ -175,6 +179,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  flex: 0 0 auto;
 }
 
 .blue-box h3,
